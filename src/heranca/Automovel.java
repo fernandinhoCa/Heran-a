@@ -12,7 +12,10 @@ package heranca;
 public class Automovel extends Terrestre{
     private String numPlaca;
     private int numPortas;
-
+    
+    public void imprimeDadosCarro(){
+        System.out.println("Placa: "+numPlaca+"\nNº portas: "+numPortas+"\nNº de rodas: "+numRodas+"\nCapacidade: "+capacidade);
+    }
     public String getNumPlaca() {
         return numPlaca;
     }
